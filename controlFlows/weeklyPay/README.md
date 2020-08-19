@@ -1,0 +1,1 @@
+This program calculates the weekly pay based on the number of hours inputted by the user.
