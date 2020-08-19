@@ -1,0 +1,1 @@
+This program will generate a random number and ask the user to guess it, the user has 5 tries and each try will return if the guess was higher or lower than the random number.
