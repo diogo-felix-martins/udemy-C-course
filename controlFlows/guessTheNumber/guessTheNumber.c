@@ -36,9 +36,11 @@ int main(){
         else
         {
             printf("Correct! You won.\n");
-            break;
+            return 0;
         }
     }
+
+    printf("\nYou have no more tries, the number was %d", randomNumber);
 
     return 0;
 }
