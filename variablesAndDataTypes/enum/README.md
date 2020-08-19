@@ -1,0 +1,1 @@
+This program creates a simple enum type, three variables of that type and prints their values.
