@@ -1,0 +1,1 @@
+This program creates an array and populates it with the prime numbers up to 100.
