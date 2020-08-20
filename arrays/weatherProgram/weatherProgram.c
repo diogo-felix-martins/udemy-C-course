@@ -46,12 +46,6 @@ int main(){
     {
         printf("Month %d: %.1f\n", j+1, monthlyAverages[j] / numberYears);
     }
-
-    // // Print the values stored in the array
-    // size_t arraySize = sizeof(primeNumbers)/sizeof(primeNumbers[0]);
-    // for (int i = 0 ; i < arraySize; i++)
-    // {
-    //     printf("primeNumbers[%i]= %i\n", i, primeNumbers[i]);
-    // }
+    
     return 0;
 }
