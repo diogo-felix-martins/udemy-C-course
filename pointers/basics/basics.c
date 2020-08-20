@@ -5,7 +5,7 @@ int main () {
     int *pvalue = &value;
 
     printf("Variable's address: %p\n", &value); 
-    printf("Pointer's address: %d\n", (void*)&pvalue); 
+    printf("Pointer's address: %p\n", (void*)&pvalue); 
     printf("Pointer's value: %p\n", pvalue);
     printf("Value the pointer is pointing to: %d\n", *pvalue);
 
