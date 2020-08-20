@@ -1,0 +1,1 @@
+This program implements a function that displays a string in reverse order and a function that sorts the strings of an array using bubble sort.
