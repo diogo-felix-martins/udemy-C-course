@@ -17,24 +17,24 @@ int main(){
     float monthlyAverages[12] = {0};
 
     // Fill the rainData array with random numbers
-    for (int i = 0 ; i < numberYears ; i++)
-        for (int j = 0 ; j < 12 ; j++)
-            rainData[i][j] = generateRandomFloat(10);
+    for (int year = 0 ; year < numberYears ; year++)
+        for (int month = 0 ; month < 12 ; month++)
+            rainData[year][month] = generateRandomFloat(10);
     
     // Calculates and prints the yearly total table
     printf("YEAR    RAINFALL\n");
     printf("----------------\n");
     float yearsSum = 0;
-    for (int i = 0 ; i < numberYears ; i++){
+    for (int year = 0 ; year < numberYears ; year++){
         float yearTotal = 0;
 
-        for (int j = 0 ; j < 12 ; j++)
+        for (int month = 0 ; month < 12 ; month++)
         {
-            yearTotal += rainData[i][j];
-            monthlyAverages[j] += rainData[i][j];
+            yearTotal += rainData[year][month];
+            monthlyAverages[month] += rainData[year][month];
         }
 
-        printf("201%d      %.1f\n", i, yearTotal);
+        printf("201%d      %.1f\n", year, yearTotal);
         yearsSum += yearTotal;
     }
 
@@ -42,10 +42,10 @@ int main(){
     
     // Print the monthly averages data previously calculated
     printf("\nMONTHLY AVERAGES:\n");
-    for (int j = 0 ; j < 12 ; j++)
+    for (int month = 0 ; month < 12 ; month++)
     {
-        printf("Month %d: %.1f\n", j+1, monthlyAverages[j] / numberYears);
+        printf("Month %d: %.1f\n", month+1, monthlyAverages[month] / numberYears);
     }
-    
+
     return 0;
 }
