@@ -1,0 +1,1 @@
+This program creates an array and populates it weather data and then displays the averages.
