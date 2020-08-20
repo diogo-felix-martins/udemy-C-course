@@ -1,0 +1,1 @@
+This programs showcases some basic pointer operations.
