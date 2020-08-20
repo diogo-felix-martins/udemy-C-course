@@ -21,19 +21,24 @@ void strConcat(char result[], char text[], char text2[]){
 }
 
 _Bool strCompare(char text[], char text2[]){
+    _Bool isEqual = 1;
     if (strLength(text) == strLength(text2)){
         for ( int i = 0 ; i < strLength(text) ; i++ ){
-            if ( text[i] != text2[i] )
-                return 0;
+            if ( text[i] != text2[i] ){
+                isEqual = 0;
+                break;
+            }
         }
+    }else{
+        isEqual = 0;
     }
 
-    return 1;
+    return isEqual;
 }
 
 int main(){
     char text[] = "ABCD";
-    char text2[] = "EFGH";
+    char text2[] = "ABCD";
     char strcatResult[10];
 
     printf("strlen: %d\n", strLength(text));
