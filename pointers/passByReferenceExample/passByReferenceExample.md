@@ -1,0 +1,1 @@
+This program calculates the square of a number by passing the parameters by reference.
