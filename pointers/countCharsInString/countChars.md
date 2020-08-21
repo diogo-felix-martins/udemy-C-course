@@ -1,0 +1,1 @@
+This program counts the number of characters in a string by using pointers.
