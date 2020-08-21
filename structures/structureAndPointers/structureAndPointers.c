@@ -41,5 +41,7 @@ int main(){
     readItem(pitem1);
     print(pitem1);
 
+    free (pitem1->itemName);
+
     return 0;
 }
