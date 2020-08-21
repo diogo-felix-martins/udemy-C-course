@@ -1,0 +1,1 @@
+This program implements a structure representing an employee, initializes an instance of employee and reads in a second instance from the console.
