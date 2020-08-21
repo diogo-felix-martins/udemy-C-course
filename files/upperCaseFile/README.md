@@ -1,0 +1,1 @@
+This program uppercases all the characters in a file.
