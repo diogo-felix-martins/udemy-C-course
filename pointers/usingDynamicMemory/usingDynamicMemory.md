@@ -1,0 +1,1 @@
+This program allows the user to input a string and store it by using dynamic memory allocation.
