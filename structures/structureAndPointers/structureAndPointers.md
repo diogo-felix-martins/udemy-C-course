@@ -1,0 +1,1 @@
+This program creates a structure and passes a pointer of it to the functions readItem and print.
